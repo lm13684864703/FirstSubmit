@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="SeleniumDemo2"> <!-- 可通过 parallel="methods/classes" thread-count="3" 控制并发执行case-->
+    <classes>
+      <class name="com.laimin.day3.gridDemo1">
+        <methods>
+          <include name="testGrid2"/>
+        </methods>
+      </class> <!-- com.laimin.day3.gridDemo1 -->
+    </classes>
+  </test> <!-- SeleniumDemo2 -->
+</suite> <!-- Default Suite -->
